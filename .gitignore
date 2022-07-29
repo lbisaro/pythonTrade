@@ -4,3 +4,5 @@ webscraping/investing_BTCUSDT.csv
 webscraping/investing_ETHUSDT.csv
 webscraping/tadingview_BTCUSDT.csv
 webscraping/tadingview_ETHUSDT.csv
+*.log
+webscraping/tadingview_BTCUSDT.csv
