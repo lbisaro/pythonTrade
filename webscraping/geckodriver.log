@@ -3076,3 +3076,116 @@ console.error: "Error during quit-application-granted: [Exception... \"File erro
 [Parent 35789, Main Thread] WARNING: ContentParent: id=7f2dd1154500 - RemoveShutdownBlockers: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3697
 [Parent 35789, Main Thread] WARNING: ContentParent: id=7f2dc7f5e300 - ShutDownProcess: Closing channel.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1834
 [Parent 35789, Main Thread] WARNING: ContentParent: id=7f2dc7f5e300 - RemoveShutdownBlockers: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3697
+1659052801203	geckodriver	INFO	Listening on 127.0.0.1:55457
+1659052801208	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "59781" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileV7XAvR"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1659052801453	Marionette	INFO	Marionette enabled
+1659052801457	Marionette	INFO	Listening on port 39529
+WebDriver BiDi listening on ws://localhost:59781
+Read port: 39529
+1659052801875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileV7XAvR/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:59781/devtools/browser/29149f61-2499-4d6f-9e72-8cd4c2093b9d
+1659052810751	Marionette	INFO	Stopped listening on port 39529
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+[Parent 36050, Main Thread] WARNING: ContentParent: id=7f071896e400 - BlockShutdown: CanSend.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3595
+[Parent 36050, Main Thread] WARNING: ContentParent: id=7f071896e400 - ShutDownProcess: Sent shutdown message.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1799
+[Parent 36050, Main Thread] WARNING: ContentParent: id=7f071896e400 - ShutDownProcess: Closing channel.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1834
+[Parent 36050, Main Thread] WARNING: ContentParent: id=7f071896e400 - RemoveShutdownBlockers: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3697
+1659052812234	geckodriver	INFO	Listening on 127.0.0.1:47735
+1659052812239	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "46031" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuGMQeg"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1659052812484	Marionette	INFO	Marionette enabled
+1659052812488	Marionette	INFO	Listening on port 43563
+WebDriver BiDi listening on ws://localhost:46031
+Read port: 43563
+1659052812953	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuGMQeg/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:46031/devtools/browser/ae142f7a-caae-46ec-a4a1-2dda783f75ed
+1659052821552	Marionette	INFO	Stopped listening on port 43563
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+[Parent 36248, Main Thread] WARNING: ContentParent: id=7f4d14c8dd00 - BlockShutdown: CanSend.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3595
+[Parent 36248, Main Thread] WARNING: ContentParent: id=7f4d14c8dd00 - ShutDownProcess: Sent shutdown message.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1799
+[Parent 36248, Main Thread] WARNING: ContentParent: id=7f4d14c8dd00 - ShutDownProcess: Closing channel.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1834
+[Parent 36248, Main Thread] WARNING: ContentParent: id=7f4d14c8dd00 - RemoveShutdownBlockers: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3697
+1659052823168	geckodriver	INFO	Listening on 127.0.0.1:54373
+1659052823172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "44803" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFDy5G5"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1659052823418	Marionette	INFO	Marionette enabled
+1659052823422	Marionette	INFO	Listening on port 36767
+WebDriver BiDi listening on ws://localhost:44803
+Read port: 36767
+1659052823796	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFDy5G5/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:44803/devtools/browser/2e4df770-6710-40e7-8e94-669faca0f582
+1659052831704	Marionette	INFO	Stopped listening on port 36767
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+[Parent 36438, Main Thread] WARNING: ContentParent: id=7f2cf3aa0900 - BlockShutdown: CanSend.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3595
+[Parent 36438, Main Thread] WARNING: ContentParent: id=7f2cf3aa0900 - ShutDownProcess: Shutdown already pending.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1815
+[Parent 36438, Main Thread] WARNING: ContentParent: id=7f2cee073800 - BlockShutdown: CanSend.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3595
+[Parent 36438, Main Thread] WARNING: ContentParent: id=7f2cee073800 - ShutDownProcess: Sent shutdown message.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1799
+[Parent 36438, Main Thread] WARNING: ContentParent: id=7f2cf3aa0900 - ShutDownProcess: Closing channel.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1834
+[Parent 36438, Main Thread] WARNING: ContentParent: id=7f2cf3aa0900 - RemoveShutdownBlockers: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3697
+[Parent 36438, Main Thread] WARNING: ContentParent: id=7f2cee073800 - ShutDownProcess: Closing channel.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1834
+[Parent 36438, Main Thread] WARNING: ContentParent: id=7f2cee073800 - RemoveShutdownBlockers: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3697
+1659052833506	geckodriver	INFO	Listening on 127.0.0.1:47543
+1659052833510	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "34291" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWjrfOh"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1659052833755	Marionette	INFO	Marionette enabled
+1659052833759	Marionette	INFO	Listening on port 40183
+WebDriver BiDi listening on ws://localhost:34291
+Read port: 40183
+1659052834173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWjrfOh/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:34291/devtools/browser/3f992cc0-5f01-4de7-a6b3-c250493d4eaa
+JavaScript error: https://connect.facebook.net/en_US/fbevents.js, line 27: TypeError: f.queue is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/V6DtokwJh9Fgiqydg7O-dbjnh59Yi9_n4aBMW1s9fk8.js line 2 > eval line 6729 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/V6DtokwJh9Fgiqydg7O-dbjnh59Yi9_n4aBMW1s9fk8.js line 2 > eval line 6729 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/V6DtokwJh9Fgiqydg7O-dbjnh59Yi9_n4aBMW1s9fk8.js line 2 > eval line 1227 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/V6DtokwJh9Fgiqydg7O-dbjnh59Yi9_n4aBMW1s9fk8.js line 2 > eval line 1227 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/V6DtokwJh9Fgiqydg7O-dbjnh59Yi9_n4aBMW1s9fk8.js line 2 > eval line 7152 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/V6DtokwJh9Fgiqydg7O-dbjnh59Yi9_n4aBMW1s9fk8.js line 2 > eval line 7152 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://cdn.flashtalking.com/frameworks/js/api/2/10/html5API.js, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1659052866464	Marionette	INFO	Stopped listening on port 40183
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 36637, Main Thread] WARNING: ContentParent: id=7f0a760af300 - BlockShutdown: CanSend.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3595
+[Parent 36637, Main Thread] WARNING: ContentParent: id=7f0a760af300 - ShutDownProcess: Sent shutdown message.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1799
+[Parent 36637, Main Thread] WARNING: ContentParent: id=7f0a70188e00 - BlockShutdown: CanSend.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3595
+[Parent 36637, Main Thread] WARNING: ContentParent: id=7f0a70188e00 - ShutDownProcess: Sent shutdown message.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1799
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 36637, Main Thread] WARNING: ContentParent: id=7f0a760af300 - ShutDownProcess: Closing channel.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1834
+[Parent 36637, Main Thread] WARNING: ContentParent: id=7f0a760af300 - RemoveShutdownBlockers: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3697
+[Parent 36637, Main Thread] WARNING: ContentParent: id=7f0a70188e00 - ShutDownProcess: Closing channel.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1834
+[Parent 36637, Main Thread] WARNING: ContentParent: id=7f0a70188e00 - RemoveShutdownBlockers: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3697
