@@ -36,13 +36,13 @@ print(action.text)
 
 csvLine = str_datetime+';'+symbol+';'+action.text+';'+"\n"
 
-filename = 'tadingview_'+symbol+'.csv'
+filename = 'tradingview_'+symbol+'.csv'
 
 try:
     f = open(filename)
 except IOError:
     f = open(filename,'w')
-    csvHead = 'DateTime'+';'+'Ticker'+';'+'Accion'+"\n"
+    csvHead = 'DateTime'+';'+'Ticker'+';'+'Accion'+';'+"\n"
     f.write(csvHead)
 finally:
     f.close()
