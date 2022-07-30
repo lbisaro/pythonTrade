@@ -20355,3 +20355,100 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 [Parent 173154, Main Thread] WARNING: ContentParent: id=7f9d87699800 - RemoveShutdownBlockers: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3697
 [Parent 173154, Main Thread] WARNING: ContentParent: id=7f9d88cc7400 - ShutDownProcess: Closing channel.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1834
 [Parent 173154, Main Thread] WARNING: ContentParent: id=7f9d88cc7400 - RemoveShutdownBlockers: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3697
+1659184201850	geckodriver	INFO	Listening on 127.0.0.1:58447
+1659184201855	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "39593" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3wGxT8"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1659184202132	Marionette	INFO	Marionette enabled
+1659184202136	Marionette	INFO	Listening on port 34839
+WebDriver BiDi listening on ws://localhost:39593
+Read port: 34839
+1659184202589	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3wGxT8/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:39593/devtools/browser/d4aa0387-dde2-4819-be30-aa3976a59759
+1659184211688	Marionette	INFO	Stopped listening on port 34839
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+[Parent 173702, Main Thread] WARNING: ContentParent: id=7ff3aaa57600 - BlockShutdown: CanSend.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3595
+[Parent 173702, Main Thread] WARNING: ContentParent: id=7ff3aaa57600 - ShutDownProcess: Sent shutdown message.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1799
+[Parent 173702, Main Thread] WARNING: ContentParent: id=7ff3aaa57600 - ShutDownProcess: Closing channel.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1834
+[Parent 173702, Main Thread] WARNING: ContentParent: id=7ff3aaa57600 - RemoveShutdownBlockers: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3697
+1659184213420	geckodriver	INFO	Listening on 127.0.0.1:56657
+1659184213425	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38961" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGfE6OT"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1659184213694	Marionette	INFO	Marionette enabled
+1659184213699	Marionette	INFO	Listening on port 36855
+WebDriver BiDi listening on ws://localhost:38961
+Read port: 36855
+1659184214188	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGfE6OT/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:38961/devtools/browser/68f079e3-de7f-4418-a621-f68ea4235b12
+1659184223224	Marionette	INFO	Stopped listening on port 36855
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+[Parent 173904, Main Thread] WARNING: ContentParent: id=7fe978a96e00 - BlockShutdown: CanSend.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3595
+[Parent 173904, Main Thread] WARNING: ContentParent: id=7fe978a96e00 - ShutDownProcess: Sent shutdown message.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1799
+[Parent 173904, Main Thread] WARNING: ContentParent: id=7fe978a96e00 - ShutDownProcess: Closing channel.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1834
+[Parent 173904, Main Thread] WARNING: ContentParent: id=7fe978a96e00 - RemoveShutdownBlockers: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3697
+1659184224961	geckodriver	INFO	Listening on 127.0.0.1:35743
+1659184224966	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "58569" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBF3ZHi"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1659184225242	Marionette	INFO	Marionette enabled
+1659184225247	Marionette	INFO	Listening on port 33835
+WebDriver BiDi listening on ws://localhost:58569
+Read port: 33835
+1659184225635	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBF3ZHi/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:58569/devtools/browser/1ef9f009-b108-4e1b-82ec-f50dd106f6d4
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 2867 > eval line 1 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/zRsni2KaYpGlbzf8qPigYhDu91QLoFuK7JLW1IaqgGI.js line 2 > eval line 2867 > eval line 1 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1659184270912	Marionette	INFO	Stopped listening on port 33835
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+[Parent 174101, Main Thread] WARNING: ContentParent: id=7fc8b28ca200 - BlockShutdown: CanSend.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3595
+[Parent 174101, Main Thread] WARNING: ContentParent: id=7fc8b28ca200 - ShutDownProcess: Sent shutdown message.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1799
+[Parent 174101, Main Thread] WARNING: ContentParent: id=7fc8a9427b00 - BlockShutdown: CanSend.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3595
+[Parent 174101, Main Thread] WARNING: ContentParent: id=7fc8a9427b00 - ShutDownProcess: Sent shutdown message.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1799
+[Parent 174101, Main Thread] WARNING: ContentParent: id=7fc8a9427b00 - ShutDownProcess: Closing channel.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1834
+[Parent 174101, Main Thread] WARNING: ContentParent: id=7fc8a9427b00 - RemoveShutdownBlockers: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3697
+[Parent 174101, Main Thread] WARNING: ContentParent: id=7fc8b28ca200 - ShutDownProcess: Closing channel.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1834
+[Parent 174101, Main Thread] WARNING: ContentParent: id=7fc8b28ca200 - RemoveShutdownBlockers: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3697
+1659184272196	geckodriver	INFO	Listening on 127.0.0.1:40099
+1659184272201	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "56009" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqm0DJf"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1659184272476	Marionette	INFO	Marionette enabled
+1659184272480	Marionette	INFO	Listening on port 45201
+WebDriver BiDi listening on ws://localhost:56009
+Read port: 45201
+1659184272936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqm0DJf/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:56009/devtools/browser/e3e2e46c-e89c-4283-8e71-7a61458acad8
+1659184305867	Marionette	INFO	Stopped listening on port 45201
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+[Parent 174355, Main Thread] WARNING: ContentParent: id=7ff0513c5c00 - BlockShutdown: CanSend.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3595
+[Parent 174355, Main Thread] WARNING: ContentParent: id=7ff0513c5c00 - ShutDownProcess: Sent shutdown message.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1799
+[Parent 174355, Main Thread] WARNING: ContentParent: id=7ff04f7cb400 - BlockShutdown: CanSend.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3595
+[Parent 174355, Main Thread] WARNING: ContentParent: id=7ff04f7cb400 - ShutDownProcess: Sent shutdown message.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1799
+[Parent 174355, Main Thread] WARNING: ContentParent: id=7ff0513c5c00 - ShutDownProcess: Shutdown already pending.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1815
+[Parent 174355, Main Thread] WARNING: ContentParent: id=7ff0513c5c00 - ShutDownProcess: Closing channel.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1834
+[Parent 174355, Main Thread] WARNING: ContentParent: id=7ff0513c5c00 - RemoveShutdownBlockers: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3697
+[Parent 174355, Main Thread] WARNING: ContentParent: id=7ff04f7cb400 - ShutDownProcess: Closing channel.: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:1834
+[Parent 174355, Main Thread] WARNING: ContentParent: id=7ff04f7cb400 - RemoveShutdownBlockers: file /build/firefox-TqScRF/firefox-104.0~b2+build1/dom/ipc/ContentParent.cpp:3697
